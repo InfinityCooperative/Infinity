@@ -70,6 +70,15 @@ body{
     position: relative;
     width: 44px;
 }
+.pharmacy{
+    position: relative;
+    width: 45px;
+}
+.imagem{
+    position: relative;
+    margin: 20px;
+    height: 25px;
+}
 .home{
     position: relative;
     height: 45px;
@@ -81,8 +90,4 @@ body{
 .ass{
     position: relative;
     width: 150px;
-}
-.pharmacy{
-    position: relative;
-    width: 45px;
 }
