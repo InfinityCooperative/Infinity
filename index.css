@@ -77,17 +77,17 @@ body{
 .wpp{
     position: relative;
     margin: 20px;
-    height: 3px;
+    height: 10px;
 }
 .gmail{
     position: relative;
     margin: 20px;
-    height: 1px;
+    height: 9px;
 }
 .tel{
     position: relative;
     margin: 20px;
-    height: 3px;
+    height: 10px;
 }
 .home{
     position: relative;
