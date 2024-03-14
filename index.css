@@ -79,6 +79,16 @@ body{
     margin: 20px;
     height: 25px;
 }
+.gmail{
+    position: relative;
+    margin: 20px;
+    height: 20px;
+}
+.tel{
+    position: relative;
+    margin: 20px;
+    height: 25px;
+}
 .home{
     position: relative;
     height: 45px;
