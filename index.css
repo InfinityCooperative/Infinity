@@ -13,13 +13,13 @@ body{
 .logo{
     margin-top: 0px;
     position: relative;
-    height: 200px;
+    height: 300px;
 }
 
 .icone{
     position: relative;
     width: 45px;
-    margin: 2px;
+    margin: 15px;
 }
 .quadrado{
     background-color: rgb(218, 241, 236);
