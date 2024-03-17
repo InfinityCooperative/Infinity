@@ -9,12 +9,11 @@ body{
 .icone{
     position: relative;
     width: 10%;
-    marigin: 2%;
+    marigin: 5%;
 }
 .imagem{
     position: relative;
     width: 6%;
-    margin: 2%;
 }
 .home{
     position: relative;
