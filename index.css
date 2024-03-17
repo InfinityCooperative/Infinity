@@ -13,7 +13,7 @@ body{
 }
 .imagem{
     position: relative;
-    height: 6%;
+    width: 6%;
     margin: 2%;
 }
 .home{
