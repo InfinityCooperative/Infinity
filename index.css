@@ -6,7 +6,7 @@ body{
     position: relative;
     height: 300px;
 }
-.stock{
+/*.stock{
     position: relative;
     width: 50px;
 }
@@ -77,11 +77,16 @@ body{
 .elevent{
     position: relative;
     width: 45px;
+}*/
+.icon{
+    position: relative;
+    margin: 3%;
+    width: 50px;
 }
 .imagem{
     position: relative;
-    margin: 20px;
-    height: 25px;
+    margin: 50px;
+    height: 30px;
 }
 .home{
     position: relative;
