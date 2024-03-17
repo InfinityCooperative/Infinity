@@ -6,10 +6,9 @@ body{
     position: relative;
     height: 300px;
 }
-
 .icon{
     position: relative;
-    width: 45px;
+    heigth: 45px;
     margin: 15px;
 }
 .imagem{
