@@ -8,12 +8,13 @@ body{
 }
 .icone{
     position: relative;
-    width: 10%;
-    marigin: 5%;
+    heigth: 45px;
+    marigin: 7px;
 }
 .imagem{
     position: relative;
-    width: 6%;
+    heigth: 25px;
+    margin: 10px;
 }
 .home{
     position: relative;
