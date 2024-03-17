@@ -81,11 +81,11 @@ body{
 .icon{
     position: relative;
     margin: 10px;
-    width: 45px;
+    width: 50px;
 }
 .imagem{
     position: relative;
-    margin: 30px;
+    margin: 20px;
     height: 25px;
 }
 .home{
