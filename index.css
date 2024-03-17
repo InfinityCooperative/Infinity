@@ -80,13 +80,13 @@ body{
 }*/
 .icon{
     position: relative;
-    margin: 1%;
-    width: 7%;
+    margin: 10px;
+    width: 45px;
 }
 .imagem{
     position: relative;
-    margin: 50px;
-    height: 30px;
+    margin: 30px;
+    height: 25px;
 }
 .home{
     position: relative;
