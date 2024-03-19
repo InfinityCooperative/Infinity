@@ -20,6 +20,9 @@ body{
     width: 65px;
     margin: 20px;
 }
+.load{
+    heigth:100px;
+}
 .rodape{
     background-color: rgb(218, 241, 236);
     border-radius: 5px;
