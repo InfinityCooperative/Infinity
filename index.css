@@ -33,13 +33,13 @@ body{
     height: 40px;
     margin: 20px;
 }
-.home{
+.icon{
     position: relative;
     height: 25px;
 }
 .slogan{
     position: relative;
-    width: 300px;
+    height: 65px;
 }
 .ass{
     position: relative;
