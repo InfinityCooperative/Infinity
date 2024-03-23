@@ -13,6 +13,7 @@ body{
 .brasil{
     position: fixed;
     height: 30px;
+    margin-left:13%;
 }
 .logo{
     margin-top: 0px;
