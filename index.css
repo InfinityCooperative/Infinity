@@ -11,9 +11,9 @@ body{
     height: auto;
 }
 .brasil{
-    position: relative;
+    position: fixed;
     height: 30px;
-    margin-left: 95%;
+    margin-left: 89%;
 }
 .logo{
     margin-top: 0px;
