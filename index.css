@@ -40,6 +40,10 @@ body{
     height: 40px;
     margin: 20px;
 }
+.mensagem{
+    height:100px;
+    width: 70px;
+}
 .icon{
     position: relative;
     height: 25px;
