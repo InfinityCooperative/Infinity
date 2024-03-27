@@ -44,13 +44,15 @@
             <a href="tel:+5518997981868"><img src="imagens/telpt.png" class="imagem"></a>
         </p>
         <h3>Formulario de envio</h3>
-        <form action="POST" method="POST">
+        <form action="https://api.staticforms.xyz/submit" method="POST">
             <p><label>Nome Completo:</label></p>
-            <p><input type="text" name="Nome completo" required/></p>
+            <p><input type="text" name="Nome completo" placeholder="Nome completo" required/></p>
             <p><label>Email:</label></p>
-            <p><input type="email" name="Email" required/></p>
+            <p><input type="email" name="Email" placeholder="email de contato"/></p>
             <p><label>Digite sua mensagem:</label></p>
-            <p><textarea class="mensagem"></textarea></p>
+            <p><textarea class="mensagem" cols="30" rows="10"></textarea></p>
+            <input type="hidden" name="accessKey" value="bf886e5b-8584-4bcb-905c-2a8f025c0eeb">
+            <input type="hidden" name="redirectTo" value="">
             <p><button type="sendto:infinitycooperativa@gmail.com" required>Enviar</button></p>
         </form>
         <p>
