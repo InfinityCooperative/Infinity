@@ -38,6 +38,21 @@ body{
     position: relative;
     height: 40px;
 }
+.cooperacao1{
+    position: relative;
+    margin: 10px;
+    color: black;
+}
+.cooperacao2{
+    position: relative;
+    margin: 10px;
+    color: black;
+}
+.cooperacao3{
+    position: relative;
+    margin: 10px;
+    color: black;
+}
 .mensagem{
     height: 100px;
     width: 190px;
