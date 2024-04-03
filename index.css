@@ -10,10 +10,15 @@ body{
     border-radius: 5px;
     height: auto;
 }
+.voltar{
+    height: 30px;
+    margin-left: -95%;
+    margin-top: 5px;
+}
 .brasil{
     position: fixed;
     height: 30px;
-    margin-left:42%;
+    margin-left: 90%;
     margin-top: 5px;
 }
 .logo{
