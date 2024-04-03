@@ -1,9 +1,9 @@
 body{
-    background-color:rgb(162, 193, 253);
+    background-color:rgb(218, 241, 236) ;
     text-align: center;
 }
 .cabeçalho{
-    background-color: rgb(218, 241, 236) ;
+    background-color: rgb(162, 193, 253);
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
@@ -27,7 +27,7 @@ body{
     margin: 20px;
 }
 .rodape{
-    background-color:rgb(218, 241, 236) ;
+    background-color:rgb(162, 193, 253);
     border-radius: 5px;
     border-width: 0.7px;
     border-style: solid;
