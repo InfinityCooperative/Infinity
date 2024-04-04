@@ -27,7 +27,7 @@ body{
     margin: 20px;
 }
 .icone:hover{
-    width: 74px;
+    width: 75px;
 }
 .rodape{
     background-color:rgb(162, 193, 253);
@@ -40,6 +40,9 @@ body{
 .imagem{
     position: relative;
     height: 40px;
+}
+.imagem:hover{
+    height: 50px;
 }
 .cooperacao1{
     position: relative;
@@ -78,7 +81,4 @@ body{
     width: 60px;
     height: 25px;
     border: none;
-}
-.imagem:hover{
-    height: 50px;
 }
