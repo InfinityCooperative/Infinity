@@ -23,7 +23,7 @@ body{
 }
 .icone{
     position: relative;
-    width: 65px;
+    height: 65px;
     margin: 20px;
 }
 .icone:hover{
