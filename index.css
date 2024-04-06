@@ -31,11 +31,11 @@ body{
 }
 .icone1{
     position: relative;
-    width: 100px;
+    width: 90px;
     margin: 20px;
 }
 .icone1:hover{
-    width: 108px;
+    width: 95px;
 }
 .rodape{
     background-color:rgb(162, 193, 253);
