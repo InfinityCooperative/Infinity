@@ -29,6 +29,13 @@ body{
 .icone:hover{
     width: 75px;
 }
+.squirrel{
+    width: 75px;
+    margin:20px;
+}
+.squirrel:hover;
+    width: 80px;
+}
 .rodape{
     background-color:rgb(162, 193, 253);
     border-radius: 5px;
