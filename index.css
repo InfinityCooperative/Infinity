@@ -23,11 +23,11 @@ body{
 }
 .icone{
     position: relative;
-    width: 4%;
+    width: 6%;
     margin: 20px;
 }
 .icone:hover{
-    width: 5%;
+    width: 7%;
 }
 .rodape{
     background-color:rgb(162, 193, 253);
