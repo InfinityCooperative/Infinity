@@ -29,6 +29,14 @@ body{
 .icone:hover{
     width: 75px;
 }
+.icone1{
+    position: relative;
+    width: 100px;
+    margin: 20px;
+}
+.icone1:hover{
+    width: 108px;
+}
 .rodape{
     background-color:rgb(162, 193, 253);
     border-radius: 5px;
