@@ -3,11 +3,12 @@ body{
     text-align: center;
 }
 .cabeçalho{
-    background:url(imagens/fundo\ Infinity.png) center  center no-repeat fixed;
+    /*background:url(imagens/fundo\ Infinity.png) center  center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    background: rgb(60, 60, 60);
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
@@ -34,11 +35,12 @@ body{
     width: 7%;
 }
 .rodape{
-   background:url(imagens/fundo\ Infinity.png) center  center no-repeat fixed;
+ /*  background:url(imagens/fundo\ Infinity.png) center  center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    background: rgb(60, 60, 60);
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
