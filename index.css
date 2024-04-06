@@ -30,11 +30,11 @@ body{
     width: 75px;
 }
 .squirrel{
-    width: 75px;
+    width: 80px;
     margin:20px;
 }
-.squirrel:hover;
-    width: 80px;
+.squirrel:hover{
+    width: 85px;
 }
 .rodape{
     background-color:rgb(162, 193, 253);
