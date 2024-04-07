@@ -92,3 +92,16 @@ body{
     height: 25px;
     border: none;
 }
+/*.imagen{
+    margin: 10px;
+    height: 150px;
+}
+.imagen:hover{
+    padding: 5px;
+    height: 175px;
+    width: 175px;
+}
+.imagen:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}*/
