@@ -23,8 +23,8 @@ body{
     height: 200px;
 }
 .icone{
-    width:70px;
-    margin: 50px;
+    width:90px;
+    margin: 10px;
 }
 .icone:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
