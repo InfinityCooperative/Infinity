@@ -24,7 +24,7 @@ body{
 }
 .icone{
     width:35px;
-    margin: 10px;
+    margin: 7px;
 }
 .icone:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -38,8 +38,8 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 42px;
-    margin: 15px;
+    height: 37px;
+    margin: 10px;
 }
 .logi:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
