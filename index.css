@@ -13,7 +13,7 @@ body{
 }
 .brasil{
     position: relative;
-    height: 10px;
+    height: 15px;
     margin-left: 90%;
     margin-top: 10px;
 }
@@ -23,7 +23,7 @@ body{
     height: 100px;
 }
 .icone{
-    width:20px;
+    width:35px;
     margin: 10px;
 }
 .icone:hover{
@@ -38,7 +38,7 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 70px;
+    height: 42px;
     margin: 15px;
 }
 .logi:hover{
