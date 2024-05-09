@@ -13,17 +13,17 @@ body{
 }
 .brasil{
     position: relative;
-    height: 50px;
+    height: 30px;
     margin-left: 90%;
     margin-top: 10px;
 }
 .logo{
     margin: 9%;
     position: relative;
-    height: 300px;
+    height: 90px;
 }
 .icone{
-    width:90px;
+    width:30px;
     margin: 10px;
 }
 .icone:hover{
@@ -35,7 +35,7 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 70px;
+    height: 40px;
     margin: 15px;
 }
 .logi:hover{
@@ -67,7 +67,8 @@ nav li{
     height: auto;
 }
 .divsacsave{
-    margin-inline: 175px;
+    padding: 15px;
+    margin-inline: 100px;
     border-width: 0.7px;
     border-radius: 10px;
     background: ghostwhite;
@@ -81,31 +82,31 @@ nav li{
     transition: background .6s;
 }
 .atendimento{
-    height: 100px;
+    height: 70px;
 }
 .clivenexp{
-    width: 100px;
+    width: 50px;
 }
 .e{
     padding-top: 5px;
-    height: 27px;
+    width: 15px;
 }
 .inf{
     padding: 5px;
-    height: 15px;
+    height: 7px;
 }
 .form{
     padding: 5px 5px 20px;
-    margin-inline: 500px;
+    margin-inline: 200px;
     border-width: 0.7px;
     border-radius: 10px;
     background: darkgrey;
 }
 .imagem{
-    height: 40px;
+    height: 20px;
 }
 .imagem:hover{
-    height: 50px;
+    height: 25px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 100%;
 }
