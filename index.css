@@ -35,8 +35,8 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 28px;
-    margin: 10px;
+    height: 29 px;
+    margin: 12px;
 }
 .logi:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -70,7 +70,8 @@ nav li{
     heigth:50px;
     width:100px;
     padding: 15px;
-    margin-inline: 60px;
+    margin:20px;
+    margin-inline: 67px;
     border-width: 0.7px;
     border-radius: 10px;
     background: ghostwhite;
@@ -90,10 +91,9 @@ nav li{
     width: 50px;
 }
 .venexp{
-    width: 50px;
+    width: 70px;
 }
 .inf{
-    padding: 5px;
     height: 7px;
 }
 .form{
