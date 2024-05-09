@@ -86,12 +86,11 @@ nav li{
 .atendimento{
     height: 25px;
 }
-.clivenexp{
+.cli{
     width: 20px;
 }
-.e{
-    padding-top: 5px;
-    width: 10px;
+.venexp{
+    width: 20px;
 }
 .inf{
     padding: 5px;
