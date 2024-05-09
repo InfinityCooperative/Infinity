@@ -13,7 +13,7 @@ body{
 }
 .brasil{
     position: relative;
-    height: 30px;
+    height: 10px;
     margin-left: 90%;
     margin-top: 10px;
 }
@@ -24,7 +24,7 @@ body{
 }
 .icone{
     width:30px;
-    margin: 10px;
+    margin: 5px;
 }
 .icone:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -82,7 +82,7 @@ nav li{
     transition: background .6s;
 }
 .atendimento{
-    height: 70px;
+    height: 50px;
 }
 .clivenexp{
     width: 50px;
@@ -97,7 +97,7 @@ nav li{
 }
 .form{
     padding: 5px 5px 20px;
-    margin-inline: 200px;
+    margin-inline: 100px;
     border-width: 0.7px;
     border-radius: 10px;
     background: darkgrey;
