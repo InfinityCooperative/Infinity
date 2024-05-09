@@ -35,7 +35,7 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 25px;
+    height: 27px;
     margin: 10px;
 }
 .logi:hover{
@@ -68,7 +68,7 @@ nav li{
 }
 .divsacsave{
     heigth:50px;
-    width:100;
+    width:100px;
     padding: 15px;
     margin-inline: 60px;
     border-width: 0.7px;
