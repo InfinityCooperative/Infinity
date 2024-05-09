@@ -35,7 +35,7 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 20px;
+    height: 25px;
     margin: 10px;
 }
 .logi:hover{
@@ -67,6 +67,7 @@ nav li{
     height: auto;
 }
 .divsacsave{
+    heigth:50px;
     width:100;
     padding: 15px;
     margin-inline: 60px;
@@ -98,7 +99,7 @@ nav li{
 }
 .form{
     padding: 5px 5px 20px;
-    margin-inline: 100px;
+    margin-inline: 50px;
     border-width: 0.7px;
     border-radius: 10px;
     background: darkgrey;
@@ -112,6 +113,7 @@ nav li{
     border-radius: 100%;
 }
 .cooperacao1{
+    height:10px;
     position: relative;
     margin: 10px;
     color: black;
@@ -124,6 +126,7 @@ nav li{
     text-decoration:underline;
 }
 .cooperacao2{
+    height:10px;
     position: relative;
     margin: 10px;
     color: black;
@@ -136,6 +139,7 @@ nav li{
     text-decoration:underline;
 }
 .cooperacao3{
+    height:10px;
     position: relative;
     margin: 10px;
     color: black;
@@ -153,15 +157,15 @@ nav li{
 }
 .icon{
     position: relative;
-    height: 25px;
+    height: 30px;
 }
 .slogan{
     position: relative;
-    height: 65px;
+    height: 40px;
 }
 .assign{
     position: relative;
-    width: 150px;
+    width: 100px;
 }
 .botaoenv:hover{
     background-color: rgb(92, 255, 155);
