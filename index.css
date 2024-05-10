@@ -36,7 +36,7 @@ body{
 }
 .logi{
     height: 29px;
-    margin: 10px;
+    margin: 0px 0px 4px 0px;
 }
 .logi:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -67,9 +67,10 @@ nav li{
     height: auto;
 }
 .divsacsave{
-    width:100px;
+    width:140px;
     padding: 15px;
-    margin:20px;
+    margin:10px;
+    border-radius:10px;
     background: ghostwhite;
 }
 .divsacsave:hover{
@@ -84,13 +85,15 @@ nav li{
     height: 25px;
 }
 .cli{
+    margin:23px;
     width: 50px;
 }
 .venexp{
-    width: 70px;
+    margin-top:15px;
+    heigth:38px;
 }
 .inf{
-    height: 7px;
+    height: 10px;
 }
 .form{
     padding: 5px 5px 20px;
@@ -108,41 +111,32 @@ nav li{
     border-radius: 100%;
 }
 .cooperacao1{
-    height:10px;
-    position: relative;
-    margin: 10px;
+    margin: 5.7px;
     color: black;
     text-decoration: none;
 }
 .cooperacao1:hover{
-    position: relative;
-    margin: 10px;
+    margin: 5.7px;
     color: rgb(20, 3, 255);
     text-decoration:underline;
 }
 .cooperacao2{
-    height:10px;
-    position: relative;
-    margin: 10px;
+    margin: 5.7px;
     color: black;
     text-decoration: none;
 }
 .cooperacao2:hover{
-    position: relative;
-    margin: 10px;
+    margin: 5.7px;
     color: rgb(20, 3, 255);
     text-decoration:underline;
 }
 .cooperacao3{
-    height:10px;
-    position: relative;
-    margin: 10px;
+    margin: 5px;
     color: black;
     text-decoration: none;
 }
 .cooperacao3:hover{
-    position: relative;
-    margin: 10px;
+    margin: 5px;
     color: rgb(20, 3, 255);
     text-decoration:underline;
 }
