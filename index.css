@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
 }
 .cabeçalho{
+    margin: -10px -7px 0px -8px;
     background: rgb(205, 205, 205);
     border-width: 0.7px;
     border-style: solid;
@@ -59,6 +60,7 @@ nav li{
     display: inline-block;
 }
 .rodape{
+    margin: 0px -7px -11px -8px;
     background: rgb(205, 205, 205);
     border-width: 0.7px;
     border-style: solid;
