@@ -9,7 +9,6 @@ body{
     border-width: 0.7px;
     border-style: solid;
     border-color: #000;
-    border-radius: 5px;
     height: auto;
 }
 .brasil{
@@ -44,7 +43,6 @@ body{
     padding: 5px;
     border: #000;
     border-radius: 10px;
-    border-width: 0.5px;
     border-style: solid;
     display: inline-block;
     transition: background .6s;
