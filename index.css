@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 .cabeçalho{
-    margin: -8px -7px -30px -9px;
+    margin: -8px -7px 30px -9px;
     background: rgb(205, 205, 205);
     border-width: 0.7px;
     border-style: solid;
