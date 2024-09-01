@@ -41,7 +41,7 @@ body{
     transition: background .6s;
 }
 .logi{
-    height: 50px;
+    height: 100px;
     margin: 0px 0px 4px 0px;
 }
 .logi:hover{
