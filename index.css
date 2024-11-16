@@ -10,7 +10,8 @@ body {
     border: 0.7px solid #000;
 }
 .bandeira {
-    margin: -55px 0 0 35%;
+    position: absolute;
+    margin: -55px 0 0 40%;
     height: 80px;
     transition: 1s;
 }
