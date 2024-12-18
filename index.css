@@ -24,11 +24,11 @@ body {
 }
 .empresas{
     display: inline-block;
-    margin: 6px 0px;
+    margin: 4% 0px;
 }
 .lozanglo{
     margin: 3% 2% 3% 0%;
-    width: 7%;
+    width: 5%;
     transform: rotate(-45deg);
 }
 .lozanglo:hover{
@@ -37,7 +37,7 @@ body {
     transition: background 0.6s;
 }
 .circulo{
-    margin: 7px;
+    margin: 5px;
     width: 10%;
     border-radius: 100%;
 }
@@ -50,7 +50,7 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
 }
 .icone {
-    margin: 7px;
+    margin: 5px;
     width: 10%;
 }
 .icone:hover{
@@ -60,7 +60,7 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .logi {
-    margin: 7px;
+    margin: 5px;
     width: 14%;
 }
 .logi:hover {
