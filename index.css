@@ -96,12 +96,14 @@ hr{
     background: rgb(205, 205, 205);
     border: 0.7px solid #000;
 }
-.form {
-    padding: 22px 0px 22px 0px;
-    margin: 22px 21% 45px 21%;
-    border: 0.7px solid #000;
+.form{
+    background-color: rgb(166 119 32);
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
     border-radius: 10px;
-    background: darkgrey;
 }
 .divisoria{
     display: inline-flex;
