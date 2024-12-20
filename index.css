@@ -97,13 +97,16 @@ hr{
     border: 0.7px solid #000;
 }
 .form{
-    background-color: rgb(166 119 32);
     display: inline-grid;
     padding: 30px 60px;
     margin: 50px;
     border-width: 0.5px;
     border-style: solid;
     border-radius: 10px;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
 }
 .divisoria{
     display: inline-flex;
@@ -146,16 +149,6 @@ hr{
 .mensagem {
     height: 100px;
     width: 190px;
-}
-.botaoenv:hover {
-    background-color: rgb(92, 255, 155);
-    color: black;
-    width: 60px;
-    height: 25px;
-    border: none;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border-radius: 10px;
 }
 h4 {
     margin: 5px;
