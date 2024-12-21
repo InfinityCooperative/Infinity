@@ -97,7 +97,7 @@ hr{
     border: 0.7px solid #000;
 }
 .form{
-    background-color: aliceblue;
+    background-color: gray;
     display: inline-grid;
     padding: 30px 60px;
     margin: 50px;
