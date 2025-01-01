@@ -14,8 +14,8 @@ p#dataHora {
 }
 .bandeira {
     position: absolute;
-    margin: -79px 0px 0px 68%;
-    height: 80px;
+    margin: -79px 0px 0px 60%;
+    height: 60px;
     transition: 1s;
 }
 .bandeira:hover {
