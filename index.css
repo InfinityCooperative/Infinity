@@ -14,12 +14,12 @@ p#dataHora {
 }
 .bandeira {
     position: absolute;
-    margin: -79px 0px 0px 60%;
-    height: 60px;
+    margin: -79px 0px 0px 58%;
+    height: 50px;
     transition: 1s;
 }
 .bandeira:hover {
-    margin: -38px 0px 0px 68%;
+    margin: -38px 0px 0px 58%;
 }
 .logo {
     display: inline;
