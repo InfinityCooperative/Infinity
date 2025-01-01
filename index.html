@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>infinity</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+        <script>
+            // Função para realizar a busca na página
+            function buscarConteudo(event) {
+                event.preventDefault(); // Evita o envio do formulário
+    
+                // Recupera o termo da busca
+                var termo = document.getElementById("termoBusca").value.toLowerCase();
+                var conteudo = document.getElementById("conteudo");
+                var resultadoBusca = document.getElementById("resultadoBusca");
+    
+                // Reseta a área de resultados
+                resultadoBusca.innerHTML = "";
+    
+                // Verifica se o termo de busca não está vazio
+                if (termo === "") {
+                    resultadoBusca.innerHTML = "<p>Por favor, insira um termo para buscar.</p>";
+                    return;
+                }
+    
+                // Pesquisa nas seções de conteúdo
+                var encontrados = 0;
+                var elementos = conteudo.getElementsByTagName("p"); // Pode adicionar mais tipos de elementos, como <h2> ou <div>
+                
+                for (var i = 0; i < elementos.length; i++) {
+                    var textoElemento = elementos[i].innerText.toLowerCase();
+                    if (textoElemento.includes(termo)) {
+                        encontrados++;
+                        // Adiciona destaque no texto encontrado
+                        elementos[i].innerHTML = elementos[i].innerHTML.replace(new RegExp(termo, 'gi'), function(match) {
+                            return '<span class="resultado">' + match + '</span>';
+                        });
+                    }
+                }
+    
+                if (encontrados > 0) {
+                    resultadoBusca.innerHTML = "<p>Encontrado " + encontrados + " resultados.</p>";
+                } else {
+                    resultadoBusca.innerHTML = "<p>Nenhum resultado encontrado.</p>";
+                }
+            }
+    
+            // Adiciona um ouvinte de evento para o envio do formulário
+            document.getElementById("formBusca").addEventListener("submit", buscarConteudo);
+        </script>
+
+
+
+
+
+        <script>
+            function mostrarDataHora() {
+                var data = new Date();
+                var dia = data.getDate().toString().padStart(2, '0');
+                var mes = (data.getMonth() + 1).toString().padStart(2, '0');
+                var ano = data.getFullYear();
+                var horas = data.getHours().toString().padStart(2, '0');
+                var minutos = data.getMinutes().toString().padStart(2, '0');
+                var segundos = data.getSeconds().toString().padStart(2, '0');
+                
+                var dataHoraFormatada = dia + '/' + mes + '/' + ano + ' ' + horas + ':' + minutos + ':' + segundos;
+                
+                document.getElementById('dataHora').innerText = dataHoraFormatada;
+            }
+    
+            setInterval(mostrarDataHora, 1000);  // Atualiza a cada segundo
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <p id="dataHora"></p>
+                <img src="imagens/brasil pt.webp" alt="Nacionalidade" class="bandeira">
+                <img src="imagens/Infinity.webp" alt="Infinity Cooperativa" class="logo">
+                <div>
+                    <button class="caixa">
+                      <div class="um"></div>
+                      <div class="dois"></div>
+                      <div class="tres"></div>
+                  <div class="dropdown-child">
+                    <a href="#"><img src="imagens/calendário.webp" class="relogio" alt="agendamento">Agendamento</a>
+                </div>
+              </div>
+              </button>
+            </div>
+            </div>
+                
+
+            <div class="icones">
+                <div class="empresas">
+                    <a href="https://infinitycooperative.github.io/AgroBov/"><img  alt="Empresa Alvo" src="imagens/AgroBov icon.webp" class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Alvo/"><img  alt="Empresa Alvo" src="imagens/Alvo icon.webp" class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Astronauta/"><img alt="Empresa Astronauta" src="imagens/astronauta logo.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Blanck_Castle/"><img alt="Empresa Blanck Castle" src="imagens/castle icon.webp"  class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Creativa/"><img alt="Empresa Creativa" src="imagens/creativa.webp"  class="icone"></a>
+                </div>
+                <div class="empresas">
+                    <a href="https://infinitycooperative.github.io/Edify/"><img alt="Empresa Edify" src="imagens/Edify.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Ellevent/"><img alt="Empresa Ellevent" src="imagens/11 icon pt.webp"  class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Fox/"><img alt="Empresa Fox" src="imagens/Fox icon.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Genesis/"><img alt="Empresa Gênesis" src="imagens/Genesis ícone 45deg.webp"  class="lozanglo"></a>
+                    <a href="https://infinitycooperative.github.io/Hercules/"><img alt="Empresa Hercules" src="imagens/hercules.webp"  class="icone"></a>
+                </div>
+                <div class="empresas">
+                    <a href="https://infinitycooperative.github.io/Medusa/"><img alt="Empresa Medusa" src="imagens/medusa icon.webp"  class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Ollympus/"><img alt="Empresa Ollympus" src="imagens/ollympus icon.webp"  class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Pandemic/"><img alt="Empresa Pandemic" src="imagens/pandemic icon.webp" class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Pegasus/"><img alt="Empresa Pegasus" src="imagens/pegasus icon pt.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Poseidon/"><img alt="Empresa Poseidon" src="imagens/Poseidon pt.webp"  class="icone"></a>
+                <div class="empresas">
+                    <a href="https://infinitycooperative.github.io/Safra/"><img  alt="Empresa Alvo" src="imagens/Safra icon.webp" class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Stock_up/"><img alt="Empresa Stock Up" src="imagens/logo stock up.webp"  class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Store/"><img alt="Empresa Store" src="imagens/store icon.webp"class="circulo"></a>
+                    <a href="https://infinitycooperative.github.io/Transita_logi/"><img alt="Empresa Transita Logi" src="imagens/transita icon.webp"  class="logi"></a>
+                    <a href="https://infinitycooperative.github.io/Tio_patinhas/"><img alt="Empresa Tio Patinhas" src="imagens/tio patas icon.webp" alt="pet shop" class="icone"></a>
+                </div>
+                <div class="empresas">
+                    <a href="https://infinitycooperative.github.io/Tita/"><img alt="Empresa Titã" src="imagens/titã icon pt.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Vital/"><img alt="Empresa Vital" src="imagens/vitalpt.webp"  class="icone"></a>
+                    <a href="https://infinitycooperative.github.io/Viva_ao_vivo/"><img alt="Empresa Viva ao Vivo" src="imagens/viva ao vivo icon.webp"  class="circulo"></a>
+                </div>
+            </div>
+            <hr>
+
+<div class="informacao">
+    <img src="imagens/Infinity.webp" class="icone1" alt="Cooperativa Infinity">
+
+    <h1 class="texto">
+        Infinity Cooperativa: Mais que um status.
+    </h1>
+
+    <h2 class="texto">
+        A Cooperativa Infinity é uma organização formada por empresas que buscam, em conjunto, ampliar sua competitividade,
+        otimizar recursos e promover o desenvolvimento sustentável.Com um foco no fortalecimento coletivo,
+        a Infinity visa criar soluções inovadoras e eficientes para os seus membros,
+        além de contribuir para o crescimento do mercado em que atuam.
+    </h2>
+
+    <h1 class="texto">
+        Objetivos e Missão:
+        <img src="imagens/metas.webp" class="icone2" alt="metas">
+    </h1>
+
+    <h2 class="texto">
+        A missão da Cooperativa Infinity é facilitar a colaboração entre empresas de diversos setores,
+        permitindo que compartilhem recursos, conhecimentos e experiências. Ao trabalhar juntas,
+        as empresas membros podem enfrentar desafios do mercado de maneira mais estratégica, melhorando a gestão,
+        reduzindo custos operacionais e ampliando sua presença no mercado.
+    </h2>
+
+    <h1 class="texto">
+        Vantagens de Fazer Parte:
+        <img src="imagens/vantagens.webp" class="icone2" alt="vantagens">
+    </h1>
+    <h2 class="texto">
+        A adesão à Cooperativa Infinity traz diversos benefícios para as empresas participantes. Entre os principais estão:
+    </h2>
+
+    <h1 class="texto">
+        Economia de Escala:
+        <img src="imagens/economia.webp" class="icone2" alt="economia cresce">
+    </h1>
+    <h2 class="texto">
+        A cooperativa permite que as empresas adquiram insumos, equipamentos e serviços em maior volume,
+        resultando em descontos e melhores condições de negociação.
+        Acesso a Tecnologia e Inovação: A Infinity promove a troca de tecnologias e soluções inovadoras,
+        ajudando as empresas a se manterem atualizadas com as tendências do mercado.
+        Redução de Custos Operacionais: Ao compartilhar recursos como logística, marketing e serviços administrativos,
+        as empresas podem reduzir significativamente seus custos.
+    </h2>
+
+    <h1 class="texto">
+        Capacidade de Expansão:
+        <img src="imagens/expansao.webp" class="icone2" alt="expansão">
+    </h1>
+    <h2 class="texto">
+        A união das empresas fortalece a capacidade de competir em mercados maiores e mais desafiadores,
+        além de possibilitar a entrada em novos mercados.</h2>
+
+    <h1 class="texto">
+        Sustentabilidade e Responsabilidade Social:
+        <img src="imagens/sustentavel.webp" class="icone2" alt="sustentabilidade">
+    </h1>
+    <h2 class="texto">
+        A Cooperativa Infinity também tem um compromisso com a sustentabilidade e a responsabilidade social.
+        As empresas que fazem parte da cooperativa têm a oportunidade de adotar práticas mais verdes e socialmente responsáveis, colaborando para um desenvolvimento mais ético e consciente,
+        tanto no ambiente de negócios quanto em suas comunidades.</h2>
+
+    <h1 class="texto">
+        Como Funciona a Cooperativa Infinity:
+        <img src="imagens/funciona.webp" class="icone2" alt="funciona">
+    </h1>
+    <h2 class="texto">
+        A Cooperativa Infinity é administrada por um conselho composto por representantes das empresas associadas.
+        As decisões são tomadas de forma democrática, com todos os membros tendo voz e participação ativa nas definições estratégicas e operacionais. Isso garante que os interesses das empresas sejam respeitados,
+        promovendo um ambiente cooperativo de confiança e transparência.
+    </h2>
+
+    <h1 class="texto">
+        Conclusão:
+        <img src="imagens/conclusao.webp" class="icone2" alt="Conclusão">
+    </h1>
+    <h2 class="texto">
+        A Cooperativa Infinity é uma excelente opção para empresas que desejam crescer de forma colaborativa,
+        agregando valor à sua atuação no mercado e investindo em práticas sustentáveis.
+        Ao unir forças, as empresas conseguem enfrentar desafios e aproveitar oportunidades que seriam difíceis de alcançar sozinhas, criando um futuro mais próspero e sustentável para todos.
+    </h2>
+</div>
+                    
+        </header>
+        <footer class="rodape">
+                    
+                            <form action="https://api.staticforms.xyz/submit" class="form" method="post">
+                    <h3>Formulario de envio</h3>
+                    <Label>Nome Completo</Label>
+                    <input type="text" name="name" placeholder="Seu Nome Completo" required>
+                    <Label>Seu email para contato</Label>
+                    <input type="text" name="email" placeholder="Seu Email" required/>
+                    <Label>Sua mensagem</Label>
+                    <textarea name="message" cols="25" rows="10" placeholder="Escreva sua mensagem" required></textarea></p>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="fafa1d68-208c-4cea-b7c1-7d5fc042863f">
+                    <input type="hidden" name="subject" value="Contact us from - beauty.salon.3001@gmail.com" />
+                    <input type="hidden" name="replyTo" value="">
+                    <input type="hidden" name="redirectTo" value="https://beauty-sa.github.io/pagina-de-agradecimento/">
+                    <input type="submit" value="Enviar" class="botaoenv"/>
+                </form>
+            </div>
+
+            <div>
+                <a href="https://infinitycooperative.github.io/SAC/"><img src="imagens/sac img.webp" alt="SAC" class="sacsave"></a>
+                <a href="https://infinitycooperative.github.io/SAVE/"><img src="imagens/save img.webp" alt="SAVE" class="sacsave"></a>
+            </div> 
+
+                <p>
+                    <a href="https://www.facebook.com/profile.php?id=61564418292976&mibextid=ZbWKwL"><img src="imagens/face pt.webp" class="imagem" alt="Facebook"></a>
+                    <a href="mailto:infinitycooperativa@gmail.com"><img src="imagens/gmail pt.webp" class="imagem" alt="Email"></a>
+                    <a href="https://www.instagram.com/infinitycooperative/"><img src="imagens/instagram pt.webp" class="imagem" alt="Intagram"></a>
+                    <a href="tel:+5518997981868"><img src="imagens/telefone pt.webp" class="imagem" alt="Telefone"></a>
+                    <a href="https://wa.me/+5518997981868"><img src="imagens/whatsapp pt.webp" class="imagem" alt="WhatsApp"></a>
+                </p>
+                       
+                        <div class="nomes">
+                        <a href="https://infinitycooperative.github.io/AgroBov/" class="cooperacao1" alt="AgroBov"><h4>AgroBov</h4></a>
+                        <a href="https://infinitycooperative.github.io/Alvo/" class="cooperacao1" alt="Alvo"><h4>Alvo</h4></a>
+                        <a href="https://infinitycooperative.github.io/Astronauta/" class="cooperacao1" alt="Astronauta"><h4>Astronauta</h4></a>
+                        <a href="https://infinitycooperative.github.io/Blanck_Castle/" class="cooperacao1" alt="Blanck Castle"><h4>Blanck Castle</h4></a>
+                        <a href="https://infinitycooperative.github.io/Creativa/" class="cooperacao1" alt="Criativa"><h4>Criativa</h4></a>
+                        </div>
+                        <div class="nomes">
+                        <a href="https://infinitycooperative.github.io/Edify/" class="cooperacao4" alt="Edify"><h4>Edify</h4></a>
+                        <a href="https://infinitycooperative.github.io/Ellevent/" class="cooperacao1" alt="Ellevent"><h4>Ellevent</h4></a>
+                        <a href="https://infinitycooperative.github.io/Fox/" class="cooperacao2" alt="Fox"><h4>Fox</h4></a>
+                        <a href="https://infinitycooperative.github.io/Genesis/" class="cooperacao2" alt="Gênesis"><h4>Gênesis</h4></a>
+                        <a href="https://infinitycooperative.github.io/Hercules/" class="cooperacao2" alt="Hercules"><h4>Hercules</h4></a>
+                        </div>
+                        <div class="nomes">
+                        <a href="https://infinitycooperative.github.io/Medusa/" class="cooperacao2" alt="Medusa"><h4>Medusa</h4></a>
+                        <a href="https://infinitycooperative.github.io/Ollympus/" class="cooperacao2" alt="Ollympus"><h4>Ollympus</h4></a>    
+                        <a href="https://infinitycooperative.github.io/Pandemic/" class="cooperacao3" alt="Pandemic"><h4>Pandemic</h4></a>
+                        <a href="https://infinitycooperative.github.io/Pegasus/" class="cooperacao3" alt="Pegasus"><h4>Pegasus</h4></a>
+                        <a href="https://infinitycooperative.github.io/Poseidon/" class="cooperacao3" alt="Poseidon"><h4>Poseidon</h4></a>
+                        </div>
+                        <div class="nomes">
+                        <a href="https://infinitycooperative.github.io/Safra/" class="cooperacao1" alt="Safra"><h4>Safra</h4></a>
+                        <a href="https://infinitycooperative.github.io/Stock_up/" class="cooperacao3" alt="Stock Up"><h4>Stock Up</h4></a>
+                        <a href="https://infinitycooperative.github.io/Store/" class="cooperacao3" alt="Store"><h4>Store</h4></a>    
+                        <a href="https://infinitycooperative.github.io/Transita_logi/" class="cooperacao4" alt="Transita Logi"><h4>Transita Logi</h4></a>
+                        <a href="https://infinitycooperative.github.io/Tio_patinhas/" class="cooperacao4" alt="Tio Patinhas"><h4>Tio Patinhas</h4></a>
+                        </div>
+                        <div class="nomes">
+                        <a href="https://infinitycooperative.github.io/Tita/" class="cooperacao4" alt="Titã"><h4>Titã</h4></a>
+                        <a href="https://infinitycooperative.github.io/Vital/" class="cooperacao4" alt="Vital"><h4>Vital</h4></a>
+                        <a href="https://infinitycooperative.github.io/Viva_ao_vivo/" class="cooperacao4" alt="Viva ao Vivo"><h4>Viva ao Vivo</h4></a>
+                        </div>
+                        
+                    </div>
+                    <a href="https://beautsalon.github.io/Beauty_Salon/"><div class="parceira">
+                        <img src="imagens/beauty salon.webp" class="salao" alt="Beauty Salon">
+                    </div></a>
+            
+                    <a href="https://infinitycooperative.github.io/Doacoes/"><img src="imagens/icon pix.webp" alt="Pix" class="doacao"></a>
+                    <h6 class=direitos>Todos os direitos estão reservados à Infinity Cooperativa</h6>
+        </footer>
+    </body>
+</html>

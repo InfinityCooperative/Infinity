@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    background-color: rgb(218, 241, 236);
+    text-align: center;
+    box-sizing: border-box;
+}
+.cabecalho {
+    background: rgb(205, 205, 205);
+    border: 0.7px solid #000;
+}
+p#dataHora {
+    display: flex;
+    margin: 10px 10px;
+}
+.bandeira {
+    position: absolute;
+    margin: -79px 0px 0px 68%;
+    height: 80px;
+    transition: 1s;
+}
+.bandeira:hover {
+    margin: -38px 0px 0px 68%;
+}
+.logo {
+    display: inline;
+    margin: 5%;
+    width: 500px;
+}
+.relogio{
+    margin: -2px 10px;
+    height: 15px;
+}
+.empresas{
+    display: inline-block;
+    margin: 4% 0px;
+}
+.lozanglo{
+    margin: 3% 2% 2% 0%;
+    width: 6%;
+    transform: rotate(-45deg);
+}
+.lozanglo:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 0.5px solid #000;
+    transition: background 0.6s;
+}
+.circulo{
+    margin: 5px;
+    width: 10%;
+    border-radius: 100%;
+}
+.circulo:hover{
+    border-color: black;
+    border-width: 0.5px;
+    border-style: solid;
+    border-style: 0.5px solid #000;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+.icone {
+    margin: 5px;
+    width: 10%;
+}
+.icone:hover{
+    border: 0.5px solid #000;
+    border-radius: 10px;
+    transition: background 0.6s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.logi {
+    margin: 5px;
+    width: 14%;
+}
+.logi:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border: 0.5px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background 0.6s;
+}
+nav {
+    margin: 26px;
+}
+hr{
+    margin: 30px 0px;
+}
+.informacao{
+    margin: 45px;
+}
+.icone1{
+    width: 175px;
+}
+.icone2{
+    margin: 0px 10px;
+    width: 50px;
+}
+.texto{
+    margin: 55px 0px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.rodape {
+    background: rgb(205, 205, 205);
+    border: 0.7px solid #000;
+}
+.form{
+    background-color: gray;
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+label{
+    margin:10px;
+    font-weight: bold;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
+.divisoria{
+    display: inline-flex;
+    padding: 34px;
+}
+.sacsave{
+    display: inline-grid;
+    width: 16%;
+    margin: 5%;
+    border-radius: 10px
+}
+.sacsave:hover{
+    width: 16%;
+    margin: 5%;
+    border-radius: 10px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.inf {
+    height: 10px;
+}
+.imagem {
+    height: 40px;
+}
+.imagem:hover{
+    height: 42px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+}
+.mensagem {
+    height: 100px;
+    width: 190px;
+}
+h4 {
+    margin: 5px;
+}
+.cooperacao1,
+.cooperacao2,
+.cooperacao3,
+.cooperacao4,
+.cooperacao5 {
+    margin: 5.7px;
+    color: black;
+    text-decoration: none;
+}
+.cooperacao1:hover,
+.cooperacao2:hover,
+.cooperacao3:hover,
+.cooperacao4:hover,
+.cooperacao5:hover {
+    color: rgb(20, 3, 255);
+    text-decoration: underline;
+}
+.nomes{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.direitos {
+    font-size: 9px;
+    text-align: center;
+    margin: -24px 0 1% 0;
+}
+img.doacao {
+    display: grid;
+    transform: rotate(-45deg);
+    height: 71px;
+    border-radius: 17px;
+    justify-content: end;
+    margin: 6% 0% 11% 6%;
+}
+img.doacao:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 0.5px solid #000;
+    transition: background 0.6s;
+}
+a{
+    display: contents;
+}
+.parceira{
+    width: 100px;
+    background: url(imagens/rosa\ textura.webp) center center no-repeat fixed;
+    display:inline-block;
+    border-radius: 10px;
+}
+.parceira:hover{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.salao{
+    width: 100%;
+}
+
+
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:focus {
+    background-color: blue
+}
+.dropdown-child {
+    background-image:url(imagens/fundo\ Infinity.webp) ;
+    border-style: solid;
+    border-width: 0px 0.5px 0.5px 0.5px;
+    border-color: black;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    margin: 22px 0px 0px -5px;
+    display: none;
+    background-color: skyblue;
+    min-width: 150px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    pointer-events: painted;
+}
+div button div a:hover{
+    pointer-events: painted;
+    color: blue;
+    text-decoration: underline;
+}
+.caixa:hover> .dropdown-child {
+    display: block;
+}
+.um,
+.dois,
+.tres{
+    margin: 4px;
+}
+button.caixa {
+    display: block;
+    background: transparent;
+    border-radius: 10px;
+    border-style: none;
+    padding: 4px;
+    height: 53px;
+    width: 53px;
+}
+button.caixa:hover{
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    border-style: none;
+    padding: 4px;
+    height: 53px;
+    width: 53px;
+}
+.caixa .um{
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.caixa:hover > .um{
+    margin: 3px 0px 0px 0px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+.caixa .dois{
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.caixa:hover > .dois{
+    height: 4px;
+    width: 0px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.caixa .tres{
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+.caixa:hover > .tres{
+    margin: -15px 0px 0px 0px ;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transform: rotate(138deg);
+    transition: 0.3s;
+}
